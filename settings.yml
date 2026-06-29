@@ -1,0 +1,7 @@
+raw_s3_bucket_url:
+  type: string
+  default: ""
+
+s3_cdn_url:
+  type: string
+  default: ""
