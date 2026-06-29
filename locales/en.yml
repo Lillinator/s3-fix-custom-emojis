@@ -1,0 +1,6 @@
+en:
+  theme_metadata:
+    description: "Patches a core bug by enforcing your S3 CDN URL on custom emojis."
+    settings:
+      raw_s3_bucket_url: "The raw storage domain bypassing the CDN (e.g., your-bucket.s3.amazonaws.com). You can find this by inspecting a broken chat image."
+      s3_cdn_url: "Your actual CDN domain for uploads. This should perfectly match your site's existing 's3 cdn url' setting."
